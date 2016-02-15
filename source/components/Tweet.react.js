@@ -29,12 +29,13 @@ var Tweet = React.createClass({
   },
 
   handleImageClick: function() {
+    console.log("image click");
     var tweet = this.props.tweet;
     var onImageClick = this.props.onImageClick;
     if (onImageClick) {
       onImageClick(tweet);
     }
-  }
+  },
 
   render: function() {
     var tweet = this.props.tweet;

@@ -85,7 +85,7 @@ var StreamTweet = React.createClass({
                onImageClick={this.props.onAddTweetToCollection} />
       </section>
     );
-  };
+  }
 });
 
 module.exports = StreamTweet;

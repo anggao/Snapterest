@@ -23,7 +23,7 @@ var Collection = React.createClass({
   },
 
   getNumberOfTweetsInCollection: function() {
-    return this.getListOfTweetIds(),length;
+    return this.getListOfTweetIds().length;
   },
 
   render: function() {

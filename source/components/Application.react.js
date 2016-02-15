@@ -1,5 +1,5 @@
 var React = require('react');
-var Steam = require('./Stream.react');
+var Stream = require('./Stream.react');
 var Collection = require('./Collection.react');
 
 var Application = React.createClass({
@@ -42,7 +42,7 @@ var Application = React.createClass({
             <Collection tweets={this.state.collectionTweets}
                         onRemoveTweetFromCollection={this.removeTweetFromCollection}
                         onRemoveAllTweetsFromCollection={this.removeAllTweetsFromCollection} />
-          <div>
+          </div>
         </div>
       </div>
     );
