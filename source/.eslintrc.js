@@ -1,8 +1,9 @@
 module.exports = {
     "env": {
-        "browser": true
+        "browser": true,
+        "commonjs": true
     },
-    "extends": "eslint:recommended",
+    "extends": 'plugin:react/recommended',
     "parserOptions": {
         "ecmaFeatures": {
             "experimentalObjectRestSpread": true,
@@ -15,7 +16,7 @@ module.exports = {
     "rules": {
         "indent": [
             2,
-            4
+            2
         ],
         "linebreak-style": [
             2,
